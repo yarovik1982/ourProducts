@@ -73,3 +73,10 @@ hr{
   text-decoration: line-through;
 }
 
+@media(max-width:539px){
+  .card__product{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+  }
+}
